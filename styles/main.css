@@ -1,20 +1,2 @@
-@import "./pages.css";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --theme: rgba(1, 0, 35, 1);
-  --textColor: rgba(255, 255, 255, 1);
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  padding: 3rem 5rem;
-  background: var(--theme);
-}
+@import "./basic/main.css";
+@import "./layouts/header.css";
