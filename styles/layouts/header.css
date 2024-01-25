@@ -1,6 +1,7 @@
 a {
   color: var(--textColor);
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -12,6 +13,7 @@ header {
   gap: 3.2rem;
   align-items: center;
 }
+
 .header__nav a {
   font-weight: 700;
   font-size: 1.7rem;
@@ -19,6 +21,7 @@ header {
   text-decoration: none;
   position: relative;
 }
+
 .header__nav a::after {
   content: "";
   position: absolute;
@@ -32,12 +35,15 @@ header {
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
 .header__nav a:hover {
   color: var(--textColor);
 }
+
 .header__nav a:hover::after {
   opacity: 1;
 }
+
 .header__link {
   display: flex;
   align-items: center;
@@ -48,6 +54,7 @@ header {
   width: 1px;
   height: 86px;
 }
+
 .header__link button {
   padding: 1rem 4rem;
   border-radius: 4rem;
@@ -58,18 +65,22 @@ header {
   font-size: 1.2rem;
   font-weight: 700;
 }
+
 .header__link button:hover {
   background-color: var(--textColor);
   color: black;
 }
+
 .header__link-LinkedIn {
   color: var(--textColor);
   font-weight: 400;
   font-size: 1.4rem;
 }
+
 main {
   color: var(--textColor);
 }
+
 main h1 {
   max-width: 80rem;
   font-size: 6.4rem;
