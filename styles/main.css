@@ -1,2 +1,6 @@
-@import "./basic/main.css";
+@import "./basic/basick.css";
+
 @import "./layouts/header.css";
+
+
+@import "./layouts/case-page/hero.css";
