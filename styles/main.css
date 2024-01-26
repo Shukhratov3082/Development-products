@@ -3,6 +3,11 @@
 @import "./layouts/header.css";
 @import "./layouts/footer.css";
 
+@import "./layouts/case-page/hero.css";
 
+<<<<<<< HEAD
+@import "./layouts/home-page/home.css";
+=======
 @import "./layouts/case-page/hero.css";
 @import "./layouts/case-page/mainPage.css";
+>>>>>>> 88fcec62cb25c943b3e70f077cffb9faa7fb725a

@@ -1,20 +1,26 @@
+<<<<<<< HEAD
+.header__nav {
+  padding-top: 3rem;
+  margin-bottom: 8.2rem;
+=======
 a {
   color: var(--textColor);
 }
 
 nav {
+>>>>>>> 88fcec62cb25c943b3e70f077cffb9faa7fb725a
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header__nav {
+.header__nav-links {
   display: flex;
   gap: 3.2rem;
   align-items: center;
 }
 
-.header__nav a {
+.header__nav-links a {
   font-weight: 700;
   font-size: 1.7rem;
   color: rgba(255, 255, 255, 0.5);
@@ -44,45 +50,68 @@ nav {
   opacity: 1;
 }
 
-.header__link {
+.header__nav__actions {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 2.2rem;
 }
 
-.header__link hr {
+.actions__divider {
   width: 1px;
   height: 86px;
 }
 
-.header__link button {
-  padding: 1rem 4rem;
+.actions__button {
+  padding: 1rem 4.3rem;
   border-radius: 4rem;
   color: var(--textColor);
   cursor: pointer;
   background-color: inherit;
   border: 2px solid rgba(255, 255, 255, 1);
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
-.header__link button:hover {
+.actions__button:hover {
   background-color: var(--textColor);
   color: black;
 }
 
-.header__link-LinkedIn {
+.actions__info {
+  max-width: 9.7rem;
   color: var(--textColor);
   font-weight: 400;
   font-size: 1.4rem;
 }
-
-main {
+.actions__info .info__number {
   color: var(--textColor);
 }
 
-main h1 {
-  max-width: 80rem;
+.header__content {
+  height: calc(100vh - 11.6rem);
+  color: var(--textColor);
+}
+
+.content__title {
+  max-width: 85rem;
   font-size: 6.4rem;
   font-weight: 700;
+}
+
+.content__paragrap {
+  font-size: 2.4rem;
+  margin: 3rem 0 4rem;
+}
+.content__button {
+  padding: 2rem 5rem;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 1rem;
+  background-color: inherit;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--textColor);
+}
+.content__button:hover {
+  background-color: var(--textColor);
+  color: black;
 }
