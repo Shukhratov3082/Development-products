@@ -52,6 +52,6 @@
 
 
 .box-2,
-.box-4{
+.box-4 {
     flex-direction: row-reverse;
 }
