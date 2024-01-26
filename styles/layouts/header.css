@@ -1,14 +1,12 @@
-<<<<<<< HEAD
 .header__nav {
   padding-top: 3rem;
   margin-bottom: 8.2rem;
-=======
+}
 a {
   color: var(--textColor);
 }
 
 nav {
->>>>>>> 88fcec62cb25c943b3e70f077cffb9faa7fb725a
   display: flex;
   justify-content: space-between;
   align-items: center;
