@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 * {
   margin: 0;
@@ -32,10 +32,10 @@ button {
 .container {
   max-width: 144rem;
   width: 100%;
-  padding: 0 5rem;
+  padding: 0rem 5rem;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background: var(--theme);
 }

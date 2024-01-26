@@ -2,5 +2,6 @@
 
 @import "./layouts/header.css";
 
-
 @import "./layouts/case-page/hero.css";
+
+@import "./layouts/home-page/home.css";
