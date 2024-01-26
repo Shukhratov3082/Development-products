@@ -9,6 +9,7 @@
 :root {
   --theme: #010023;
   --textColor: #ffffff;
+  --p-color: rgba(255, 255, 255, 0.50);
 }
 
 html {
@@ -32,7 +33,8 @@ button {
 .container {
   max-width: 144rem;
   width: 100%;
-  padding: 0 5rem;
+  margin: 0 auto;
+  padding: 0rem 5rem;
 }
 
 body {
