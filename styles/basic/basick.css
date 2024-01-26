@@ -9,6 +9,7 @@
 :root {
   --theme: #010023;
   --textColor: #ffffff;
+  --p-color: rgba(255, 255, 255, 0.50);
 }
 
 html {
