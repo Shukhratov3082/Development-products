@@ -3,10 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css" />
     <title>Development</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="header__nav">
+        <img src="images/logo.svg" alt="logo" />
+        <div class="header__nav-links">
+          <a href="./index.html">Home</a>
+          <a href="#">Offerings</a>
+          <a href="#">Service</a>
+          <a href="case.html">Case study</a>
+          <a href="#">About us</a>
+          <a href="./contact.html">Contact us</a>
+        </div>
+        <div class="header__nav__actions">
+          <button class="actions__button">Get assessment</button>
+          <hr class="actions__divider" />
+          <div class="actions__info">
+            <a href="#" class="info__number">+9999999999</a>
+            <p class="info__text">Info..... LinkedIn</p>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="contact">
+        <div class="contact__head">
+          <h1>Get in touch with us!</h1>
+        </div>
+        <div class="contact__container">
+          <div class="contact__form">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
 
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button><span>Get Started</span></button>
+          </div>
+
+          <div class="contact__content">
+            <div class="contact__img">
+              <img src="./images/contact-img.png" alt="Contact Image" />
+            </div>
+            <div class="contact__info"></div>
+            <p>Additional information goes here...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer__section">
+          <div class="footer__img">
+            <img src="./images/logo.svg" alt="logo svg" />
+          </div>
+          <div class="footer__links">
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">About us</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Policy</a></li>
+              <li><a href="#">Policy</a></li>
+              <li><a href="#">Policy</a></li>
+              <li><a href="#">Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer__contact">
+            <h4>Contact</h4>
+            <p>+9999999999</p>
+            <span>
+              <img src="./images/footer_icons.svg" alt="icons" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
