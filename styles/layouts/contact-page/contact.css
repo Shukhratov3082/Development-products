@@ -1,0 +1,159 @@
+.content {
+  color: var(--textColor);
+}
+.contact__title {
+  text-align: center;
+  color: var(--textColor);
+  font-size: 4.4rem;
+  font-weight: 700;
+  margin-bottom: 8.6rem;
+}
+
+.contact__form {
+  max-width: 134rem;
+  width: 100%;
+  height: 39.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  background: #0e0d2e;
+  border: 1px solid #ffffff66;
+  margin-bottom: 9.1rem;
+}
+.form__control {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid white;
+  padding: 4rem 3rem;
+}
+
+.form__group {
+  position: relative;
+  margin-bottom: 2.6rem;
+}
+
+.form__label {
+  display: block;
+  color: var(--textColor);
+  background: #0e0d2e;
+  font-size: 14px;
+  position: absolute;
+  padding: 0 0.6rem;
+  top: -20%;
+  left: 3%;
+  margin-bottom: 5px;
+}
+
+.message {
+  top: -9%;
+}
+.form__input {
+  width: 100%;
+  height: 4.9rem;
+  padding-left: 1.5rem;
+  box-sizing: border-box;
+  border: 0.5px solid #ffffff80;
+  color: var(--textColor);
+  background-color: inherit;
+  border-radius: 4px;
+}
+.form__textarea {
+  resize: none;
+  height: 8rem;
+}
+
+.form__button {
+  background-color: rgba(217, 217, 217, 0.1);
+  color: #fff;
+  padding: 1.3rem 5.2rem;
+  border: 1px solid #ffffff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.form__button:hover {
+  background-color: white;
+  color: #000;
+}
+
+.form__about {
+  width: 50%;
+  padding: 4rem 3rem;
+}
+.about__content {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 3.1rem;
+}
+.about__content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.about__content-group {
+  display: flex;
+  align-items: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  gap: 2rem;
+}
+.bold-text {
+  font-weight: 700;
+}
+
+.about-title {
+  font-size: 3.4rem;
+  font-weight: 400;
+}
+.contact__map {
+  position: relative;
+  margin-bottom: 12.9rem;
+}
+.map__title {
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin-bottom: 10.5rem;
+}
+.map__image {
+  width: 100%;
+  height: auto;
+}
+.map__circle {
+  position: absolute;
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: white;
+  border-radius: 50%;
+  z-index: 5;
+}
+.circle1 {
+  top: 46%;
+  left: 16%;
+}
+.circle2 {
+  top: 22%;
+  left: 37%;
+}
+.circle3 {
+  bottom: 20%;
+  left: 28%;
+}
+.circle4 {
+  top: 46%;
+  left: 50%;
+}
+.circle5 {
+  top: 66%;
+  left: 50%;
+}
+
+.circle6 {
+  top: 36%;
+  right: 39%;
+}
+
+.circle7 {
+  top: 35%;
+  right: 26%;
+}

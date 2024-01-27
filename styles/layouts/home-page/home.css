@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 5rem;
+  margin-bottom: 5rem;
 }
 .home__cards {
   border: 1px solid;
@@ -11,11 +12,7 @@
     rgba(255, 255, 255, 0.05),
     rgba(255, 255, 255, 0.05)
   );
-  border-image-source: linear-gradient(
-    94.8deg,
-    rgba(255, 255, 255, 0.5) 0%,
-    rgba(255, 255, 255, 0) 101.8%
-  );
+  border: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--textColor);
 }
 
@@ -24,7 +21,6 @@
 .card__skills {
   display: flex;
   align-items: center;
-  height: 46.5rem;
   padding: 4.2rem 6.5rem;
 }
 .card__skills .skills__info {
@@ -34,6 +30,7 @@
   gap: 1rem;
 }
 .card__skills .skills__info span {
+  height: 3.9rem;
   text-align: center;
   padding: 1rem 2.4rem;
   border-radius: 5rem;
@@ -42,28 +39,30 @@
   font-size: 1.1rem;
   font-weight: 500;
 }
-
+.skills__image {
+  margin-top: 2rem;
+}
 /* Card Services */
+
 .card__services {
-  height: 56.5rem;
   padding: 4rem 3.7rem;
 }
-
 .services__title {
   text-align: center;
   margin-bottom: 5.4rem;
   font-size: 3.4rem;
   font-weight: 500;
 }
+.line-vector {
+  margin-right: 1rem;
+}
 .services__content {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
 }
-
 .content__info {
-  max-width: 30rem;
-  width: 100%;
   border: 1px solid rgba(217, 217, 217, 1);
   padding: 2.3rem 0.8rem;
   display: flex;
@@ -72,12 +71,14 @@
   border-radius: 1.5rem;
 }
 .info-second {
+  border: 2px dotted rgba(217, 217, 217, 1);
   padding: 1.1rem;
 }
 .content__info span {
   max-width: 25.4rem;
+  height: 2.8rem;
   text-align: center;
-  padding: 1rem 2.4rem;
+  padding-top: 0.7rem;
   border-radius: 5rem;
   background: rgba(255, 255, 255, 0.05);
   color: var(--textColor);
@@ -89,6 +90,7 @@
 }
 
 /* Card technologies */
+
 .card__technologies {
   height: 41.1rem;
   padding: 6rem 5rem;
@@ -101,6 +103,7 @@
 }
 .technologies__content {
   display: flex;
+  overflow-x: auto;
   gap: 5rem;
 }
 .box {
@@ -114,13 +117,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Card Reviews */
+
 .card__reviews {
-  height: 66.1rem;
   padding: 4.9rem 5rem 3.8rem;
 }
 .reviews__title {
@@ -137,11 +138,11 @@
 .reviews__container {
   display: flex;
   align-items: center;
+  overflow-x: auto;
   gap: 2rem;
 }
 .reviews__box {
   max-width: 32.5rem;
-  height: 43.8rem;
   width: 100%;
   border: 1px solid;
   border-radius: 1rem;
@@ -149,8 +150,67 @@
   border: 1px solid white;
 }
 .box__head {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
   padding: 1.7rem 2.5rem;
   border: 1px solid;
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.head__title {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.head__skill {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.box__text {
+  padding: 2rem 2.5rem;
+}
+.box__text p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+}
+
+/* Card Contact */
+
+.card__contact {
+  padding: 6.9rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.contact__title {
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+.contact__paragraph {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.contact__button {
+  align-self: flex-end;
+  border-radius: 2rem;
+  height: 6.1rem;
+  padding: 1.8rem 7rem;
+  color: var(--textColor);
+  border: 1px solid #ffffff;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.contact__button:hover {
+  background-color: white;
+  color: #000;
 }

@@ -1,3 +1,6 @@
+.header {
+  margin-bottom: 4.4rem;
+}
 .header__nav {
   padding-top: 3rem;
   margin-bottom: 8.2rem;
@@ -86,7 +89,6 @@ nav {
 }
 
 .header__content {
-  height: calc(100vh - 11.6rem);
   color: var(--textColor);
 }
 
